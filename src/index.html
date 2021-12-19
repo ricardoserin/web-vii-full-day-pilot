@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTO ISSACA</title>
+    <link rel="shortcut icon" href="assets/icons/logo.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/15f1ec3d17.js" crossorigin="anonymous"></script>
+</head>
+<body id="main">
+    <header class="header">
+        <a href="#inicio" class="header__logo">
+            <img class="image" src="assets/img/logo-horizontal.png" alt="Logo Evento" />
+        </a>
+        <!-- <button id="btnOpenMenu" type="button" class="header__menu-icon">
+            <i class="fas fa-bars"></i>
+        </button> -->
+        <div class="navigation">
+            <!-- <ul id="mainMenu" class="navigation__list navigation__list--hidden">
+                <button id="btnCloseMenu" type="button" class="header__menu-close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <li id="linknosotros" class="navigation__item">
+                    <a href="#nosotros">Nosotros</a>
+                </li>
+                <li id="linkponentes" class="navigation__item">
+                    <a href="#ponentes">Ponentes</a>
+                </li>
+                <li id="linkcronograma" class="navigation__item">
+                    <a href="#cronograma">Cronograma</a>
+                </li>
+                <li id="linkprecios" class="navigation__item">
+                    <a href="#precios">Precios</a>
+                </li>
+                <li id="linkinscripcion" class="navigation__item">
+                    <a href="#inscripcion">Inscribete!</a>
+                </li>
+                <li id="linkinscripcion" class="navigation__item">
+                    <a href="#inscripcion">Auspiciadores</a>
+                </li>
+                <li id="linkinscripcion" class="navigation__item">
+                    <div id="clock" class="conta_evento"></div>
+                </li>
+            </ul> -->
+        </div>
+    </header>
+    <main>
+        <section id="inicio" class="section presentation">
+            <div class="target"></div>
+            <div class="section__column">
+                <div class="presentation__call-to-action">
+                    <h1 class="presentation__message">A tan solo</h1>
+                    <div id="cuenta"></div>
+                    <h1 class="presentation__message">Para el gran dia</h1>
+                    <!-- <a href="#inscripcion" class="button presentation__button">Registrate</a> -->
+                </div>
+            </div>
+            <div class="section__column">
+                <form id="contactForm" class="form contact-form__form">
+                    <label class="form__label">APELLIDOS</label>
+                    <input class="form__input form__input--uppercase" placeholder="APELLIDOS" type="text" name="surnames" required>
+                    <label class="form__label">NOMBRES</label>
+                    <input class="form__input form__input--uppercase" placeholder="NOMBRES" type="text" name="names" required>
+                    <label class="form__label">CORREO ELECTRÓNICO</label>
+                    <input class="form__input form__input--uppercase" placeholder="CORREO ELECTRÓNICO" type="email" name="email" required>
+                    <label class="form__label">TELÉFONO/CELULAR</label>
+                    <input class="form__input" placeholder="TELÉFONO/CELULAR" type="tel" name="phone" required>
+                    <select class="form__input" name="certificate" required>
+                        <option>TIPO DE INSCRIPCIÓN</option>
+                        <option value="true">Obtener certificado</option>
+                        <option value="false" selected>Sin certificado</option>
+                    </select>
+                    <label class="form__label">INSTITUCIÓN U ORGANIZACIÓN (OPCIONAL)</label>
+                    <input class="form__input form__input--uppercase" placeholder="INSTITUCIÓN U ORGANIZACIÓN (OPCIONAL)" type="text" name="organization">
+                    <button class="button form__button" type="submit">REGISTRAR</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
